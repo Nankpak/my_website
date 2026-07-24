@@ -96,13 +96,6 @@ h1{
   outline: none;
 }
 
-.button-primary {
-  background: var(--button);
-  width: 120px;
-  color: #f0f2f5;
-  box-shadow: 0 18px 40px rgba(56, 189, 248, 0.16);
-}
-
 .button-secondary {
   background: var(--button);
   color: #fff;
@@ -135,6 +128,10 @@ h1{
   border-radius: 100px;
   border-color: #f8fafc;
   height: 200px;
+  text-align: center;
+  place-content: center;
+  margin: auto
+  ;
 }
 
 .stats-grid {
