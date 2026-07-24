@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software Engineer Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div>
+        <p class="eyebrow">Software Engineer Portfolio</p>
+        <h1>Hi, I'm a Computer Scientist</h1>
+        <p class="intro">
+          I build clean, modern web experiences and I am available for booking. If you need a dedicated developer for your next project, let’s connect.
+        </p>
+      </div>
+      <div class="header-actions">
+        <a class="button button-primary" href="#booking">Book Me</a>
+        <a class="button button-secondary" href="#booking">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container about-section" id="about">
+      <h2>About Me</h2>
+      <p><img src="images/scientific.JPG" alt="nankpak_image" id="my-image"></p>
+      <p><button id="downloadImageButton" class="button button-secondary">Download Image</button></p>
+      <p>
+        I am a graduate in Computer Science with a better foundation in software engineering principles, web development, and problem-solving.
+        I enjoy turning ideas into polished digital products and helping teams build reliable applications.
+      </p>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <p class="stat-value">Web Development</p>
+          <p>HTML, CSS, JavaScript, Responsive Design and Python for the Backend</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-value">Software Engineering</p>
+          <p>Professional Analyse, Clean code, algorithms, testing, version control</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-value">Collaboration</p>
+          <p>Team communication, project planning, agile workflow</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container booking-section" id="booking">
+      <div>
+        <h2>Book a Consultation</h2>
+        <p>
+          I’m available for freelance work, internships, or full-time opportunities. Share your project details and I’ll get back to you quickly.
+        </p>
+      </div>
+      <form id="bookingForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required />
+
+        <label for="message">Project Details</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+
+        <button type="submit" class="button button-secondary">Send Booking Request</button>
+        <p id="formMessage" class="form-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>Nankpak Tanfa Tanko&middot; <i>Alright Reserved@2026</i></p>
+      <p><i>Ready for bookings and new opportunities.</i></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
